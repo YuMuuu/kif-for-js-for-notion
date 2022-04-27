@@ -1,0 +1,23 @@
+<html>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/kifu-for-js@3/bundle/kifu-for-js.min.js"></script>
+</head>
+
+<body>
+  <script>
+    var url = new URL(window.location.href);
+    var params = url.searchParams;
+    var kifu_url = params.get("kifu");
+    KifuForJS.load(kifu_url);
+
+    var el = document.querySelector("[id^='kifuforjs_']");
+    el.style.width = "570px";
+    el.style.height = "559px";
+    el.style.margin = "30px 30px";
+    el.style.padding = "10px";
+    el.style.border = "thin solid rgb(247, 246, 243)";
+  </script>
+</body>
+
+</html>
