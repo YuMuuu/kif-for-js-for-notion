@@ -1,0 +1,13 @@
+{
+  "name": "kif-for-js-for-notion",
+  "version": "1.0.0",
+  "repository": "git@github.com:YuMuuu/kif-for-js-for-notion.git",
+  "author": "yu miura <curelemonade15@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  },
+  "scripts": {
+    "build": "parcel build ./src/index.html"
+  }
+}
